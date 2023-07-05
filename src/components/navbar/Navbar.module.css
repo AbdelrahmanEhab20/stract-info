@@ -1,0 +1,102 @@
+h4 {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  position: sticky;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* margin-bottom: 0.5vw; */
+  box-sizing: border-box;
+  /* top: 0; */
+  background-color: #f7f7f7;
+  width: 100%;
+}
+.navbarLogo {
+  margin-left: 5%;
+  margin-top: 1%;
+}
+.navbarLogo:hover {
+  cursor: pointer;
+}
+.navbarRightSide {
+  display: flex;
+  justify-content: space-around;
+  column-gap: 45px;
+  align-items: center;
+  margin-right: 5%;
+  margin-top: 1%;
+}
+.navbarRightSideItem {
+  color: #161b45;
+  font-size: 20px;
+  font-weight: 500;
+}
+.navbarRightSideContainer {
+  border: 3.5px solid #f7f7f7;
+  padding: 15px 15px;
+}
+.navbarRightSideContainer:hover {
+  color: #161b45;
+  border: 3.5px solid transparent;
+  border-radius: 32px;
+  background: linear-gradient(to right, #fff, #fff),
+    linear-gradient(to right, #2ed4fc, #d394f0);
+  background-clip: padding-box, border-box;
+  background-origin: padding-box, border-box;
+  cursor: pointer;
+}
+
+/* SELECTED CLASS */
+.navbarRightSideContainerSelected {
+  padding: 15px 15px;
+  color: #161b45;
+  border: 3.5px solid transparent;
+  border-radius: 32px;
+  background: linear-gradient(to right, #f5f5f5, #f5f5f5),
+    linear-gradient(to right, #2ed4fc, #d394f0);
+  background-clip: padding-box, border-box;
+  background-origin: padding-box, border-box;
+}
+.navbarRightSideContainerSelected {
+  cursor: pointer;
+}
+/* 
+@media screen and (max-width: 767px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    column-gap: 5px;
+    justify-content: center;
+  }
+  .navbarRightSideItem {
+    font-size: 15px;
+  }
+  .navbarRightSideContainer {
+    padding: 5px;
+  }
+}
+@media screen and (max-width: 475px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    column-gap: 5px;
+    justify-content: center;
+  }
+  .navbarRightSide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 3px;
+  }
+  .navbarRightSideItem {
+    font-size: 15px;
+  }
+  .navbarRightSideContainer {
+    padding: 5px;
+  }
+} */

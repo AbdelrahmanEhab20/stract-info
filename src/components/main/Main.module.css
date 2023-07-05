@@ -1,0 +1,110 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 620px;
+  margin-bottom: 100px;
+}
+.headingTitle {
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 80px;
+  color: #161b45;
+}
+.messageContent {
+  width: 500px;
+  margin-left: 5px;
+  color: #757575;
+}
+
+/* Display grid cards */
+.cardsGrid {
+  margin-top: 25px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.cardItem {
+  width: 220px;
+  height: 130px;
+  text-align: left;
+  padding-top: 15px;
+  padding-left: 15px;
+  background-color: #fff;
+  border-radius: 32px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.cardItem:hover {
+  transform: scale(1.05);
+}
+@media screen and (max-width: 900px) {
+  .main {
+    margin-top: 550px;
+    margin-bottom: 100px;
+  }
+  .headingTitle {
+    font-size: 45px;
+  }
+  .messageContent {
+    width: 380px;
+  }
+
+  /* Display grid cards */
+  .cardsGrid {
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+}
+@media screen and (max-width: 490px) {
+  .main {
+    margin-top: 550px;
+    margin-bottom: 100px;
+  }
+  .headingTitle {
+    font-size: 45px;
+  }
+  .messageContent {
+    width: 340px;
+  }
+
+  /* Display grid cards */
+  .cardsGrid {
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+  }
+  .cardItem {
+    width: 260px;
+    height: 160px;
+  }
+}
+@media screen and (max-width: 385px) {
+  .main {
+    margin-top: 560px;
+    margin-bottom: 100px;
+  }
+  .headingTitle {
+    font-size: 40px;
+  }
+  .messageContent {
+    width: 320px;
+  }
+}
+@media screen and (max-width: 340px) {
+  .main {
+    margin-top: 560px;
+    margin-bottom: 100px;
+  }
+  .headingTitle {
+    font-size: 35px;
+  }
+  .messageContent {
+    width: 300px;
+  }
+}
