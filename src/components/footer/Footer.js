@@ -18,7 +18,7 @@ export default function Footer() {
     // navigate("/Home");
     // } else if (selected === "Policy") {
     // navigate("/PrivacyPolicy");
-    window.location.replace("https://stract-terms-and-conditions.netlify.app");
+    window.location.replace("https://stract.lirten.com/terms");
     // }
   }
   return (
