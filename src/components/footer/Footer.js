@@ -18,7 +18,7 @@ export default function Footer() {
     // navigate("/Home");
     // } else if (selected === "Policy") {
     // navigate("/PrivacyPolicy");
-    window.location.replace("http://127.0.0.1:5500/index.html");
+    window.location.replace("https://stract-terms-and-conditions.netlify.app");
     // }
   }
   return (
